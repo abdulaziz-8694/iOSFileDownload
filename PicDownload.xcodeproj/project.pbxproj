@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		890F20131D5985F5005B6FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F20121D5985F5005B6FAA /* AppDelegate.swift */; };
+		890F20151D5985F5005B6FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F20141D5985F5005B6FAA /* ViewController.swift */; };
+		890F20181D5985F5005B6FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890F20161D5985F5005B6FAA /* Main.storyboard */; };
+		890F201A1D5985F5005B6FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890F20191D5985F5005B6FAA /* Assets.xcassets */; };
+		890F201D1D5985F5005B6FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890F201B1D5985F5005B6FAA /* LaunchScreen.storyboard */; };
+		890F20281D5985F5005B6FAA /* PicDownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F20271D5985F5005B6FAA /* PicDownloadTests.swift */; };
+		890F20331D5985F5005B6FAA /* PicDownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F20321D5985F5005B6FAA /* PicDownloadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		890F20241D5985F5005B6FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890F20071D5985F5005B6FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890F200E1D5985F5005B6FAA;
+			remoteInfo = PicDownload;
+		};
+		890F202F1D5985F5005B6FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 890F20071D5985F5005B6FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 890F200E1D5985F5005B6FAA;
+			remoteInfo = PicDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		890F200F1D5985F5005B6FAA /* PicDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		890F20121D5985F5005B6FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		890F20141D5985F5005B6FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		890F20171D5985F5005B6FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		890F20191D5985F5005B6FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		890F201C1D5985F5005B6FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		890F201E1D5985F5005B6FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890F20231D5985F5005B6FAA /* PicDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890F20271D5985F5005B6FAA /* PicDownloadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicDownloadTests.swift; sourceTree = "<group>"; };
+		890F20291D5985F5005B6FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890F202E1D5985F5005B6FAA /* PicDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		890F20321D5985F5005B6FAA /* PicDownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicDownloadUITests.swift; sourceTree = "<group>"; };
+		890F20341D5985F5005B6FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		890F200C1D5985F5005B6FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F20201D5985F5005B6FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F202B1D5985F5005B6FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		890F20061D5985F5005B6FAA = {
+			isa = PBXGroup;
+			children = (
+				890F20111D5985F5005B6FAA /* PicDownload */,
+				890F20261D5985F5005B6FAA /* PicDownloadTests */,
+				890F20311D5985F5005B6FAA /* PicDownloadUITests */,
+				890F20101D5985F5005B6FAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		890F20101D5985F5005B6FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				890F200F1D5985F5005B6FAA /* PicDownload.app */,
+				890F20231D5985F5005B6FAA /* PicDownloadTests.xctest */,
+				890F202E1D5985F5005B6FAA /* PicDownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		890F20111D5985F5005B6FAA /* PicDownload */ = {
+			isa = PBXGroup;
+			children = (
+				890F20121D5985F5005B6FAA /* AppDelegate.swift */,
+				890F20141D5985F5005B6FAA /* ViewController.swift */,
+				890F20161D5985F5005B6FAA /* Main.storyboard */,
+				890F20191D5985F5005B6FAA /* Assets.xcassets */,
+				890F201B1D5985F5005B6FAA /* LaunchScreen.storyboard */,
+				890F201E1D5985F5005B6FAA /* Info.plist */,
+			);
+			path = PicDownload;
+			sourceTree = "<group>";
+		};
+		890F20261D5985F5005B6FAA /* PicDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				890F20271D5985F5005B6FAA /* PicDownloadTests.swift */,
+				890F20291D5985F5005B6FAA /* Info.plist */,
+			);
+			path = PicDownloadTests;
+			sourceTree = "<group>";
+		};
+		890F20311D5985F5005B6FAA /* PicDownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				890F20321D5985F5005B6FAA /* PicDownloadUITests.swift */,
+				890F20341D5985F5005B6FAA /* Info.plist */,
+			);
+			path = PicDownloadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		890F200E1D5985F5005B6FAA /* PicDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890F20371D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownload" */;
+			buildPhases = (
+				890F200B1D5985F5005B6FAA /* Sources */,
+				890F200C1D5985F5005B6FAA /* Frameworks */,
+				890F200D1D5985F5005B6FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicDownload;
+			productName = PicDownload;
+			productReference = 890F200F1D5985F5005B6FAA /* PicDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		890F20221D5985F5005B6FAA /* PicDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890F203A1D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownloadTests" */;
+			buildPhases = (
+				890F201F1D5985F5005B6FAA /* Sources */,
+				890F20201D5985F5005B6FAA /* Frameworks */,
+				890F20211D5985F5005B6FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890F20251D5985F5005B6FAA /* PBXTargetDependency */,
+			);
+			name = PicDownloadTests;
+			productName = PicDownloadTests;
+			productReference = 890F20231D5985F5005B6FAA /* PicDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		890F202D1D5985F5005B6FAA /* PicDownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 890F203D1D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownloadUITests" */;
+			buildPhases = (
+				890F202A1D5985F5005B6FAA /* Sources */,
+				890F202B1D5985F5005B6FAA /* Frameworks */,
+				890F202C1D5985F5005B6FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				890F20301D5985F5005B6FAA /* PBXTargetDependency */,
+			);
+			name = PicDownloadUITests;
+			productName = PicDownloadUITests;
+			productReference = 890F202E1D5985F5005B6FAA /* PicDownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		890F20071D5985F5005B6FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abdul Aziz";
+				TargetAttributes = {
+					890F200E1D5985F5005B6FAA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					890F20221D5985F5005B6FAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 890F200E1D5985F5005B6FAA;
+					};
+					890F202D1D5985F5005B6FAA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 890F200E1D5985F5005B6FAA;
+					};
+				};
+			};
+			buildConfigurationList = 890F200A1D5985F5005B6FAA /* Build configuration list for PBXProject "PicDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 890F20061D5985F5005B6FAA;
+			productRefGroup = 890F20101D5985F5005B6FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				890F200E1D5985F5005B6FAA /* PicDownload */,
+				890F20221D5985F5005B6FAA /* PicDownloadTests */,
+				890F202D1D5985F5005B6FAA /* PicDownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		890F200D1D5985F5005B6FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F201D1D5985F5005B6FAA /* LaunchScreen.storyboard in Resources */,
+				890F201A1D5985F5005B6FAA /* Assets.xcassets in Resources */,
+				890F20181D5985F5005B6FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F20211D5985F5005B6FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F202C1D5985F5005B6FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890F200B1D5985F5005B6FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F20151D5985F5005B6FAA /* ViewController.swift in Sources */,
+				890F20131D5985F5005B6FAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F201F1D5985F5005B6FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F20281D5985F5005B6FAA /* PicDownloadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F202A1D5985F5005B6FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890F20331D5985F5005B6FAA /* PicDownloadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		890F20251D5985F5005B6FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890F200E1D5985F5005B6FAA /* PicDownload */;
+			targetProxy = 890F20241D5985F5005B6FAA /* PBXContainerItemProxy */;
+		};
+		890F20301D5985F5005B6FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 890F200E1D5985F5005B6FAA /* PicDownload */;
+			targetProxy = 890F202F1D5985F5005B6FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		890F20161D5985F5005B6FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890F20171D5985F5005B6FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		890F201B1D5985F5005B6FAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				890F201C1D5985F5005B6FAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		890F20351D5985F5005B6FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		890F20361D5985F5005B6FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		890F20381D5985F5005B6FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.PicDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		890F20391D5985F5005B6FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.PicDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		890F203B1D5985F5005B6FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.PicDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicDownload.app/PicDownload";
+			};
+			name = Debug;
+		};
+		890F203C1D5985F5005B6FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.PicDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicDownload.app/PicDownload";
+			};
+			name = Release;
+		};
+		890F203E1D5985F5005B6FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PicDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.PicDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicDownload;
+			};
+			name = Debug;
+		};
+		890F203F1D5985F5005B6FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PicDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.PicDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicDownload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		890F200A1D5985F5005B6FAA /* Build configuration list for PBXProject "PicDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F20351D5985F5005B6FAA /* Debug */,
+				890F20361D5985F5005B6FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		890F20371D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F20381D5985F5005B6FAA /* Debug */,
+				890F20391D5985F5005B6FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		890F203A1D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F203B1D5985F5005B6FAA /* Debug */,
+				890F203C1D5985F5005B6FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		890F203D1D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890F203E1D5985F5005B6FAA /* Debug */,
+				890F203F1D5985F5005B6FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 890F20071D5985F5005B6FAA /* Project object */;
+}
