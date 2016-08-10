@@ -14,6 +14,7 @@
 		890F201D1D5985F5005B6FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890F201B1D5985F5005B6FAA /* LaunchScreen.storyboard */; };
 		890F20281D5985F5005B6FAA /* PicDownloadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F20271D5985F5005B6FAA /* PicDownloadTests.swift */; };
 		890F20331D5985F5005B6FAA /* PicDownloadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890F20321D5985F5005B6FAA /* PicDownloadUITests.swift */; };
+		89A2F6B71D59D72D007E7820 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A2F6B61D59D72D007E7820 /* Download.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		890F202E1D5985F5005B6FAA /* PicDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890F20321D5985F5005B6FAA /* PicDownloadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicDownloadUITests.swift; sourceTree = "<group>"; };
 		890F20341D5985F5005B6FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A2F6B61D59D72D007E7820 /* Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				890F20191D5985F5005B6FAA /* Assets.xcassets */,
 				890F201B1D5985F5005B6FAA /* LaunchScreen.storyboard */,
 				890F201E1D5985F5005B6FAA /* Info.plist */,
+				89A2F6B61D59D72D007E7820 /* Download.swift */,
 			);
 			path = PicDownload;
 			sourceTree = "<group>";
@@ -193,6 +196,11 @@
 				TargetAttributes = {
 					890F200E1D5985F5005B6FAA = {
 						CreatedOnToolsVersion = 7.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					890F20221D5985F5005B6FAA = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -256,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89A2F6B71D59D72D007E7820 /* Download.swift in Sources */,
 				890F20151D5985F5005B6FAA /* ViewController.swift in Sources */,
 				890F20131D5985F5005B6FAA /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +493,7 @@
 				890F20391D5985F5005B6FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890F203A1D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownloadTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +502,7 @@
 				890F203C1D5985F5005B6FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890F203D1D5985F5005B6FAA /* Build configuration list for PBXNativeTarget "PicDownloadUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +511,7 @@
 				890F203F1D5985F5005B6FAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
